@@ -24,6 +24,7 @@ const (
 )
 
 func main() {
+	fmt.Println("\n\n\n[INFO]start server....",time.Now().Format(time.UnixDate))
 	Server()
 	//fmt.Println("create a server(s) or client(c)?")
 	//reader := bufio.NewReader(os.Stdin)
